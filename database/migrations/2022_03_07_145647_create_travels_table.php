@@ -13,6 +13,7 @@ class CreateTravelsTable extends Migration
      */
     public function up()
     {
+        
         Schema::create('travels', function (Blueprint $table) {
             $table->id();
             $table->string('city');
